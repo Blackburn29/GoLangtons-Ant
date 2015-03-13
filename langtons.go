@@ -90,6 +90,7 @@ func advanceBlack() {
 	moveForward()
 }
 
+//TODO Fix logic for when ant reaches edges of grid.
 func moveForward() {
 	switch direction {
 	case NORTH:
